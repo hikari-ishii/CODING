@@ -1,0 +1,28 @@
+/* --------------------- */
+/* base
+/* --------------------- */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    letter-spacing: .05em;
+    color: #171717;
+    font-family: 'Noto Serif', 'Noto Serif JP', serif;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.sp-br {
+    display: none;
+}
+
+/* --------------------- */
+/* header
+/* --------------------- */
+
