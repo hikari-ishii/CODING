@@ -6,11 +6,43 @@ html {
     font-size: 62.5%;
 }
 
+html:after,
+body:before,
+body:after {
+    content: "";
+    background-color: #d92b44;
+    position: fixed;
+    display: block;
+    z-index: 1;
+}
+
+html:after {
+    width: 20px;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+
+body:before {
+    width: 100vh;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+}
+
+body:after {
+    width: 20px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
 body {
     font-size: 1.6rem;
     letter-spacing: .05em;
     color: #171717;
     font-family: 'Noto Serif', 'Noto Serif JP', serif;
+    background-color: #FCF9F4;
 }
 
 img {
@@ -26,3 +58,108 @@ img {
 /* header
 /* --------------------- */
 
+.header-nav {
+
+    width: 135px;
+    height: 240px;
+    background-color: #fff;
+    border: 3px solid #000;
+    position: fixed;
+    right: 0;
+    bottom: 240px;
+    float: right;
+    z-index: 20;
+}
+
+/* --------------------- */
+/* deco
+/* --------------------- */
+
+.deco_frame{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    letter-spacing: 0.477778em;
+    color: #fff;
+    font-size: 0.5em;
+    background: #d92b44;
+    white-space: nowrap;
+    z-index: 10;
+    padding: 5px 0;
+   /* content: "";
+    background-color: #d92b44;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    height: 10px;
+    width: 100vw;
+    left: 0;
+    right: 0;   
+     */
+}
+
+.deco_frame>ul {
+    display: flex;
+    align-items: center;
+}
+
+/* --------------------- */
+/* main1
+/* --------------------- */
+
+.fv-wrapper {
+    margin: 0 20px;
+}
+
+
+/* --------------------- */
+/* main-hero
+/* --------------------- */
+
+
+.hero_plant {
+    width: 8%;
+}
+
+.hero_people {
+    width: 10%;
+}
+
+/* --------------------- */
+/* main-msg
+/* --------------------- */
+.msg_pen {
+    width: 10%;
+}
+.msg_bg {
+    width: 60%;
+}
+.msg_people {
+    width: 40%;
+}
+.msg_clip1 {
+    width: 18%;
+}
+.msg_clip2 {
+    width: 18%;
+}
+.msg_clip3 {
+    width: 18%;
+}
+.msg_clip4 {
+    width: 20%;
+}
+.msg_eraser {
+    width: 18%;
+}
+
+/* --------------------- */
+/* main-interview
+/* --------------------- */
+
+.interview_img {
+    max-width: 15%;
+    min-width: 20rem;
+}
