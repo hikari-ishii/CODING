@@ -19,7 +19,7 @@ body:after {
 html:after {
     width: 2.6vw;
     min-width: 2rem;
-    height: 100vh;
+    height: 100%;
     right: 0;
     top: 0;
 }
@@ -35,7 +35,7 @@ body:before {
 body:after {
     width: 2.6vw;
     min-width: 2rem;
-    height: 100vh;
+    height: 100%;
     top: 0;
     left: 0;
 }
@@ -57,9 +57,53 @@ img {
     display: none;
 }
 
+.font-en {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.fz-18 {
+    font-size: 1.125rem;
+}
+
+
 /* --------------------- */
 /* header
 /* --------------------- */
+
+.header-inner {
+    position: relative;
+}
+
+.sheader_logo {
+    position: absolute;
+    top: 4.5vw;
+    left: 6vw;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sheader_logo>a {
+    text-decoration: none;
+    display: flex;
+}
+
+.sheader_logo>a:visited {
+    color: black;
+}
+
+.sheader_logo .color_red {
+    color: #fff;
+    background-color: #d92b44;
+    font-weight: lighter;
+    padding: 0 5px;
+}
+
+.sheader_logo .space {
+    margin-left: 1.5vw;
+}
 
 .header-nav {
 
@@ -73,6 +117,91 @@ img {
     float: right;
     z-index: 20;
 }
+
+.menu_deco {
+    top: -4.25rem;
+    left: -1.75rem;
+    width: 6.75rem;
+    height: 5.4375rem;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/navi-deco.svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-weight: 600;
+}
+
+.menus .txt {
+    transform: rotate(-5deg);
+    color: #000;
+}
+
+.nav-list {
+    padding: 1.5rem 0;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-item>a {
+    color: #000;
+    padding: 0.5rem 1.75rem;
+    display: block;
+    line-height: 1.4;
+}
+
+.nav-item>a:hover {
+    color: #D92B44;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+    outline: none;
+}
+
+.copyright {
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    color: #fff;
+    display: flex;
+    width: 2.6vw;
+    align-items: center;
+    z-index: 999;
+}
+
+.nav-option {
+    list-style: none;
+}
+
+.nav-item {
+}
+
+.nav-option a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+
+        color: #fff;
+    background-color: #000;
+    height: 5rem;
+
+}
+
+.nav-option a:hover {
+    color: #fff;
+        text-decoration: none;
+        background-color: #8B8B8C;
+    transition: background-color 0.4s ease-out;
+    outline: none;
+}
+
+
 
 /* --------------------- */
 /* deco
@@ -151,7 +280,7 @@ img {
 
 #lottie {
     color: #d92b44;
-    font-size: 33rem;
+    font-size: 18vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: relative;
 }
@@ -166,12 +295,14 @@ img {
     position: absolute;
     top: 8vw;
     left: 22vw;
+    z-index: 1;
 }
 
 #lottie>.k1 {
     position: absolute;
     top: 4vw;
     left: 35vw;
+    z-index: 1;
 }
 
 #lottie>.u2 {
@@ -198,8 +329,15 @@ img {
     left: 80vw;
 }
 
+#hero-img {
+    position: relative;
+}
+
 .hero_plant {
     width: 8%;
+    position: absolute;
+    top: 7.5vw;
+    left: 14.5vw;
 }
 
 .hero_people {
@@ -239,7 +377,7 @@ img {
 .people5 {
     position: absolute;
     top: 6vw;
-    left: 50.8vw;
+    left: 51vw;
     width: 17%;
 }
 
