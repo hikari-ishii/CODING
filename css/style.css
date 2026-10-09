@@ -17,7 +17,7 @@ body:after {
 }
 
 html:after {
-    width: 2.6%;
+    width: 2.6vw;
     min-width: 2rem;
     height: 100vh;
     right: 0;
@@ -26,14 +26,14 @@ html:after {
 
 body:before {
     width: 100%;
-    height: 2.6%;
+    height: 2.6vw;
     min-height: 2rem;
     bottom: 0;
     left: 0;
 }
 
 body:after {
-    width: 2.6%;
+    width: 2.6vw;
     min-width: 2rem;
     height: 100vh;
     top: 0;
@@ -89,9 +89,8 @@ img {
     background: #d92b44;
     white-space: nowrap;
     z-index: 10;
-    padding: 2px 0;
     width: 100%;
-    height: 2.6%;
+    height: 2.6vw;
     min-height: 2rem;
     /* content: "";
     background-color: #d92b44;
@@ -108,7 +107,9 @@ img {
 .deco_frame>ul {
     display: flex;
     align-items: center;
+    height: 100%;
 }
+
 
 /* --------------------- */
 /* main1
@@ -123,72 +124,78 @@ img {
 /* main-hero
 /* --------------------- */
 
+.hero {
+    position: relative;
+}
+
 .hero_title {
     position: absolute;
-    top: 20rem;
-    right: 20rem;
+    top: 17rem;
+    right: 15rem;
     white-space: nowrap;
     text-align: center;
 }
 
 .hero_title>div:first-child {
-    font: bold;
-    font-size: 2.5rem;
+    font-weight: bold;
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium';
 }
 
 .hero_title>div:last-child {
     font-weight: lighter;
-    font-size: 5rem;
+    font-size: 4.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 0.05em;
 }
 
 #lottie {
     color: #d92b44;
     font-size: 33rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font: bold;
+    position: relative;
 }
 
 #lottie>.f {
     position: absolute;
-    top: 10rem;
-    left: 23rem;
+    top: 3vw;
+    left: 10vw;
 }
 
 #lottie>.u1 {
     position: absolute;
-    top: 20rem;
-    left: 45rem;
+    top: 8vw;
+    left: 22vw;
 }
 
 #lottie>.k1 {
     position: absolute;
-    top: 13rem;
-    left: 70rem;
+    top: 4vw;
+    left: 35vw;
 }
 
 #lottie>.u2 {
     position: absolute;
-    top: 45rem;
-    left: 80rem;
+    top: 20vw;
+    left: 40vw;
 }
 
 #lottie>.o {
     position: absolute;
-    top: 55rem;
-    left: 106rem;
+    top: 27vw;
+    left: 54vw;
 }
 
 #lottie>.k2 {
     position: absolute;
-    top: 48rem;
-    left: 131rem;
+    top: 23vw;
+    left: 68vw;
 }
 
 #lottie>.a {
     position: absolute;
-    top: 40rem;
-    left: 155rem;
+    top: 18vw;
+    left: 80vw;
 }
 
 .hero_plant {
@@ -199,43 +206,47 @@ img {
     width: 10%;
 }
 
+#hero-img {
+    position: relative;
+}
+
 .people1 {
     position: absolute;
-    top: 33rem;
-    left: 16rem;
+    top: 15vw;
+    left: 7vw;
 }
 
 .people2 {
     position: absolute;
-    top: 52rem;
-    left: 36rem;
+    top: 25vw;
+    left: 19vw;
     width: 7%;
 }
 
 .people3 {
     position: absolute;
-    top: 38rem;
-    left: 55rem;
+    top: 17vw;
+    left: 28vw;
     width: 12%;
 }
 
 .people4 {
     position: absolute;
-    top: 30rem;
-    left: 90rem;
+    top: 12vw;
+    left: 45vw;
 }
 
 .people5 {
     position: absolute;
-    top: 12rem;
-    left: 100rem;
+    top: 6vw;
+    left: 50.8vw;
     width: 17%;
 }
 
 .people6 {
     position: absolute;
-    top: 40rem;
-    left: 138rem;
+    top: 20vw;
+    left: 72vw;
 }
 
 
