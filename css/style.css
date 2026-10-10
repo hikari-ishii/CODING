@@ -13,7 +13,6 @@ body:after {
     background-color: #d92b44;
     position: fixed;
     display: block;
-    z-index: 1;
 }
 
 html:after {
@@ -30,6 +29,7 @@ body:before {
     min-height: 2rem;
     bottom: 0;
     left: 0;
+    z-index: 20;
 }
 
 body:after {
@@ -388,12 +388,42 @@ img {
     left: 72vw;
 }
 
+.main_wrapper {
+    float: left;
+}
+
+.home_news {
+    position: relative;
+    z-index: 3;
+}
+
+.inner-xl {
+    max-width: calc(100% - 18.75rem);
+}
+
+.home_news_wrap {
+    display: grid;
+    grid-template-columns: 7.5rem auto;
+    width: 41.25rem;
+
+    position: relative;
+    font-size: max(12px, 0.875rem);
+    background-color: #FFEDEF;
+    border-radius: 9999px;
+}
 
 /* --------------------- */
 /* main-msg
 /* --------------------- */
+
+
 .msg_pen {
     width: 10%;
+}
+
+.img_set {
+    position: relative;
+    width: 100%;
 }
 
 .msg_bg {
@@ -402,26 +432,56 @@ img {
 
 .msg_people {
     width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 8vw;
+
+    overflow: hidden;
 }
 
+
 .msg_clip1 {
-    width: 18%;
+    position: absolute;
+    width: 5%;
+    top: 39vw;
+    right: 23vw;
 }
 
 .msg_clip2 {
-    width: 18%;
+    position: absolute;
+    width: 5%;
+    top: 49vw;
+    right: 15vw;
+
 }
 
 .msg_clip3 {
-    width: 18%;
+    position: absolute;
+    width: 5%;
+    top: 45vw;
+    right: 15vw;
+}
+
+.bg-red {
+    position: relative;
 }
 
 .msg_clip4 {
+    position: absolute;
     width: 20%;
+    top: -2vw;
+    left: -2vw;
+    z-index: 10;
 }
 
 .msg_eraser {
+    position: absolute;
+
     width: 18%;
+    top: -5vw;
+    right: 0;
+    z-index: 10;
+
 }
 
 /* --------------------- */
