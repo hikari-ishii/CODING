@@ -256,6 +256,7 @@ img {
 
 .hero {
     position: relative;
+    height: 45vw;
 }
 
 .hero_title {
