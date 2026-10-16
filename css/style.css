@@ -465,6 +465,11 @@ img {
 /* main-msg
 /* --------------------- */
 
+.home_message {
+    position: relative;
+    height: 65.5vw;
+}
+
 .home_message_title {
     display: flex;
     flex-direction: column;
@@ -484,13 +489,15 @@ img {
     align-items: baseline;
     border-bottom: 4px solid #000;
     padding: 0 20px;
+    background-color: rgba(255, 255, 255, .8);
+    z-index: 10;
 }
 
 .msg_subtitle {
     position: absolute;
     display: grid;
     writing-mode: vertical-rl;
-    top: 57vw;
+    top: 2vw;
     left: 45vw;
     white-space: nowrap;
     line-height: 2vw;
@@ -498,35 +505,95 @@ img {
 }
 
 .msg_subtxt {
-      text-decoration: overline;
+    text-decoration: overline;
     text-decoration-color: #d92b44;
-   /*   border-left: 2px solid #d92b44;
+    /*   border-left: 2px solid #d92b44;
     display: inline; */
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 700;
     font-size: 1.2vw;
 }
 
+.msg_txtarea {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+}
+
+.msg_title {
+    position: absolute;
+    top: 21vw;
+    right: 32vw;
+    width: 10vw;
+}
+
+.msg_title svg::after {
+    /*    border: 3px solid #d92b44;*/
+    background-color: #d92b44;
+    content: "";
+    height: 5px;
+    width: 10vw;
+}
 
 
 .msg_pen {
-    width: 10%;
+    position: absolute;
+    width: 20vw;
+    right: 0;
+    z-index: 10;
+}
+
+
+
+.svg_future svg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 9vw;
+    right: 7vw;
+}
+
+.msg_text {
+    position: absolute;
+    writing-mode: vertical-rl;
+    top: 27vw;
+    right: 18vw;
+    line-height: 1.8vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+    font-size: .8vw;
+}
+
+.text_space {
+    padding: 0 .4vw;
+}
+
+.txt-red {
+    color: #d92b44;
+}
+
+.txt-h {
+    writing-mode: horizontal-tb;
+    line-height: 1;
 }
 
 .img_set {
-    position: relative;
+    position: absolute;
     width: 100%;
+    top: 30vw;
 }
 
 .msg_bg {
     width: 60%;
+    position: relative;
 }
 
 .msg_people {
-    width: 40%;
+    width: 45%;
     position: absolute;
     bottom: 0;
-    left: 8vw;
+    left: 3vw;
 
     overflow: hidden;
 }
@@ -535,14 +602,14 @@ img {
 .msg_clip1 {
     position: absolute;
     width: 5%;
-    top: 39vw;
+    top: -5vw;
     right: 23vw;
 }
 
 .msg_clip2 {
     position: absolute;
     width: 5%;
-    top: 49vw;
+    top: 4vw;
     right: 15vw;
 
 }
@@ -550,7 +617,7 @@ img {
 .msg_clip3 {
     position: absolute;
     width: 5%;
-    top: 45vw;
+    top: 0;
     right: 15vw;
 }
 
