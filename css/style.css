@@ -649,13 +649,148 @@ img {
 
 .bg-red {
     background: #d92b44;
+    height: 57vw;
 }
 
-.interview_img {
-    max-width: 15%;
-    min-width: 20rem;
+.interview_top {
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.top1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.top2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 8vw;
+}
+
+.top3 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: .9vw;
+}
+
+.interview {
+    padding: 3vw 0;
+    border-bottom: 1px solid #fff;
 }
 
 .slider {
     display: flex;
+}
+
+.interview_box {
+    position: relative;
+    margin-right: 10vw;
+}
+
+.img-no {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    position: absolute;
+    top: 2vw;
+    left: -6vw;
+}
+
+.comment {
+    position: absolute;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+    display: inline;
+    margin-bottom: 5px;
+    padding: 5px;
+
+    font-size: 1vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+}
+
+.comment1 {
+    left: -5vw;
+    bottom: 9.2vw;
+}
+
+.comment2 {
+    left: -5vw;
+    bottom: 6.8vw;
+}
+
+.profile {
+    position: absolute;
+    left: -5vw;
+    bottom: 2.5vw;
+    color: #fff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: .7vw;
+    line-height: 1.7;
+}
+
+.interview_img {
+    width: 16vw;
+    min-width: 20rem;
+}
+
+.arrow {
+    position: absolute;
+    width: 15%;
+    right: 1vw;
+    bottom: 3.3vw;
+}
+
+.interview-btn-box {
+    position: relative;
+    top: 4.5vw;
+}
+
+.interview-btn {
+    display: block;
+    margin: auto;
+    font-size: 1vw;
+    padding: .7vw 5vw;
+    border-radius: 5px;
+    position: absolute;
+    position: relative;
+    background-color: #fff;
+    border: none;
+}
+
+.interview-btn a {
+    text-decoration: none;
+        color: #d92b44;
+
+}
+
+.interview-btn>a::before,
+.interview-btn>a::after {
+    content: "";
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    background-color: #D92B44;
+    position: absolute;
+    top: 50%;
+}
+
+.interview-btn>a::before {
+    left: 15%;
+}
+
+.interview-btn>a::after {
+    right: 15%;
+
 }
