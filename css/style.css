@@ -157,6 +157,11 @@ img {
     padding: 1.5rem 0;
     text-align: center;
     list-style: none;
+
+}
+
+.nav-item {
+    white-space: nowrap;
 }
 
 .nav-item>a {
@@ -807,7 +812,7 @@ img {
     width: 100%;
     height: 30vw;
     position: relative;
-
+    z-index: 10;
 }
 
 .banner_box {
@@ -825,3 +830,200 @@ img {
     color: #fff;
 }
 
+/* --------------------- */
+/* guidelines
+/* --------------------- */
+
+.guidelines-wrapper {
+    height: 50vw;
+}
+
+.guidelines-wrapper::before,
+.guidelines-wrapper::after {
+    content: "";
+    background-color: #d92b44;
+    display: block;
+}
+
+.guidelines-wrapper::before {
+    width: 100%;
+    height: 2.6vw;
+    min-height: 2rem;
+    top: 0;
+    left: 0;
+}
+
+.guidelines-wrapper::after {
+    width: 100%;
+    height: 10vw;
+    min-height: 2rem;
+    bottom: 0;
+    left: 0;
+}
+
+.application-guidelines {
+    height: 30vw;
+}
+
+.application-guidelines h3 {
+    font-size: 2vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.application-guidelines h3::before,
+.application-guidelines h3::after {
+    content: "";
+    display: block;
+    width: 32vw;
+    height: 1px;
+    background-color: #d92b44;
+}
+
+.application-guidelines h3::before {
+    margin-right: 5vw;
+}
+
+.application-guidelines h3::after {
+    margin-left: 5vw;
+}
+
+.application-guidelines-box {
+    display: flex;
+    margin: 0 6vw;
+}
+
+.guidelines_new {
+    width: 50%;
+    text-align: center;
+
+}
+
+.guidelines_halfway {
+    width: 50%;
+    text-align: center;
+}
+
+.guidelines_new a,
+.guidelines_halfway a {
+    color: #000;
+    display: block;
+    outline: 1px solid #d92b44;
+    outline-offset: -10px;
+    padding: 4vw 0;
+    margin: 0 2vw;
+    background-position: center;
+    transition: all 0.5s ease;
+}
+
+.guidelines_new a {
+    background-color: #FFEDEF;
+
+}
+
+.guidelines_halfway a {
+    background-color: #E3F2FF;
+}
+
+.guidelines_new a:hover,
+.guidelines_halfway a:hover {
+    color: #fff;
+
+}
+
+.guidelines_new a:hover {
+    background-image: url(/img/bnr-requirements01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.guidelines_halfway a:hover {
+    background-image: url(/img/bnr-requirements02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.application-guidelines h4 {
+    font-size: 3vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+}
+
+/* --------------------- */
+/* recruitment
+/* --------------------- */
+
+.back-animation {
+    display: flex;
+    font-size: 13vw;
+    -webkit-text-stroke: 2px #d92b44;
+    color: #FCF9F4;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    height: 20vw;
+}
+
+
+/*
+.back-Sentence {
+    position: relative;
+    display: inline-block;
+    padding-right: 5vw;
+}
+
+
+
+
+.back-Sentence::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 5vw solid transparent;
+    border-top: 5vw solid transparent;
+    border-right: 5vw solid #d92b44;
+    
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+.Triangle_box {}
+
+.back-Triangle {
+    position: relative;
+    width: 10vw;
+    height: 100%;
+}
+
+.back-Triangle::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: rotate(-50%, -50%);
+    border-left: 2vw solid transparent;
+    border-right: 2vw solid transparent;
+    border-top: 2vw solid #d92b44;
+}
+
+.back-Triangle::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border-left: 1.68vw solid transparent;
+    border-right: 1.68vw solid transparent;
+    border-top: 1.68vw solid #FCF9F4;
+}
+
+*/
