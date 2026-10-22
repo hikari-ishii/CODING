@@ -141,7 +141,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/img/navi-deco.svg.svg);
+    background-image: url(../img/navi-deco.svg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -805,7 +805,7 @@ img {
 /* --------------------- */
 
 .banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(/img/bnr-01.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3)), url(../img/bnr-01.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
@@ -992,6 +992,18 @@ img {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 700;
     height: 20vw;
+}
+
+.back-Triangle {
+    display: flex;
+    align-items: center;
+    width: 3vw;
+    height: 20vw;
+    margin: auto 5vw;
+}
+
+.back-Triangle svg {
+    width: 100%;
 }
 
 
