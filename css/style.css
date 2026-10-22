@@ -913,46 +913,71 @@ img {
 .guidelines_halfway a {
     color: #000;
     display: block;
-    outline: 1px solid #d92b44;
-    outline-offset: -10px;
     padding: 4vw 0;
     margin: 0 2vw;
     background-position: center;
-    transition: all 0.5s ease;
+    position: relative;
+    z-index: 0;
+    text-decoration: none;
 }
 
 .guidelines_new a {
     background-color: #FFEDEF;
-
+    outline: 1px solid #d92b44;
+    outline-offset: -10px;
 }
 
 .guidelines_halfway a {
     background-color: #E3F2FF;
+    outline: 1px solid #0039A4;
+    outline-offset: -10px;
 }
+
+.guidelines_new a::before,
+.guidelines_halfway a::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    z-index: -1;
+}
+
 
 .guidelines_new a:hover,
 .guidelines_halfway a:hover {
     color: #fff;
+    outline: 1px solid #fff;
+    outline-offset: -10px;
+}
+
+.guidelines_new a::before {
+    background-image: url(../img/bnr-requirements01.jpg);
 
 }
 
-.guidelines_new a:hover {
-    background-image: url(/img/bnr-requirements01.jpg);
-    background-size: cover;
-    background-position: center;
+.guidelines_halfway a::before {
+    background-image: url(../img/bnr-requirements02.jpg);
+
+
 }
 
-.guidelines_halfway a:hover {
-    background-image: url(/img/bnr-requirements02.jpg);
-    background-size: cover;
-    background-position: center;
-
+.guidelines_new a:hover::before,
+.guidelines_halfway a:hover::before {
+    opacity: 1;
 }
 
 .application-guidelines h4 {
     font-size: 3vw;
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 700;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+    padding-bottom: 0.2em;
 }
 
 /* --------------------- */
