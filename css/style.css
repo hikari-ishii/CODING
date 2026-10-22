@@ -990,7 +990,7 @@ img {
 
 .recruitment_wrapper {
     position: relative;
-    height: 50vw;
+    height: 47vw;
 }
 
 .back-animation {
@@ -1094,4 +1094,13 @@ img {
 
 .recruitment-box a img {
     width: 50%;
+}
+
+.deco-people {
+    position: absolute;
+    bottom: -22%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    z-index: 100;
 }
