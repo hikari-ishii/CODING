@@ -695,6 +695,7 @@ img {
 .interview {
     padding: 3vw 0;
     border-bottom: 1px solid #fff;
+    overflow: hidden;
 }
 
 .slider {
@@ -1023,6 +1024,11 @@ img {
     position: absolute;
 }
 
+.back-Sentence,
+.Triangle_box {
+    overflow: hidden;
+}
+
 .back-Triangle {
     display: flex;
     align-items: center;
@@ -1179,7 +1185,7 @@ img {
 .title-box a {
     text-decoration: none;
     color: #000;
-        white-space: nowrap;
+    white-space: nowrap;
 
 }
 
@@ -1209,10 +1215,10 @@ img {
 
 .top {
     background-color: #000;
-        font-family: "Noto Sans JP", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     font-weight: 300;
-font-size: 2vw;
-letter-spacing: 0.2vw;
+    font-size: 2vw;
+    letter-spacing: 0.2vw;
 }
 
 .top a {
@@ -1233,4 +1239,32 @@ letter-spacing: 0.2vw;
     top: 35%;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+@media screen and (max-width: 768px) {
+/* --------------------- */
+/* base_sp
+/* --------------------- */
+
+
+    .section-wrapper {}
+
+    .sp-br {
+        display: block;
+    }
+
+    .back-animation {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+
+
+
+
 }
