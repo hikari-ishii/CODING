@@ -153,7 +153,7 @@ img {
 }
 
 .menus .txt {
-    transform: translate(-5deg);
+    transform: rotate(-5deg);
     color: #000;
 }
 
@@ -695,7 +695,6 @@ img {
 .interview {
     padding: 3vw 0;
     border-bottom: 1px solid #fff;
-    overflow: hidden;
 }
 
 .slider {
@@ -802,7 +801,6 @@ img {
 
 .interview-before,
 .interview-after {
-    content: "";
     width: .7rem;
     height: .7rem;
     border-radius: 50%;
@@ -1157,10 +1155,8 @@ img {
 /* --------------------- */
 
 .footer {
-    height: 10vw;
     background-color: #fff;
     border: 5px solid #000;
-    position: absolute;
     width: 100%;
     height: 15vw;
     display: flex;
@@ -1242,21 +1238,67 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+    /* --------------------- */
+    /* base_sp
 /* --------------------- */
-/* base_sp
-/* --------------------- */
-
-
-    .section-wrapper {}
 
     .sp-br {
         display: block;
+    }
+
+    .interview {
+        overflow: hidden;
     }
 
     .back-animation {
         width: 100%;
         overflow: hidden;
     }
+
+    /* --------------------- */
+    /* header_sp
+/* --------------------- */
+
+    .sheader_logo {
+        top: 8vw;
+    }
+
+    /* --------------------- */
+    /* nav_sp
+/* --------------------- */
+
+
+    .burger-btn {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 10vw;
+        height: 10vw;
+        background-color: #d92b44;
+        border: none;
+        border-radius: 10px;
+        z-index: 999;
+    }
+
+    .burger-btn .bar {
+        display: block;
+        height: 2px;
+        width: 6vw;
+        background-color: #fff;
+        transition: .3s;
+    }
+
+    .bar_top,
+    .bar_mid {
+        margin-bottom: 8px;
+    }
+
+    .burger-btn .bar_top {
+        transform: rotate(45deg) translate(8px, 8px);
+        transition: .3s;
+    }
+
+
 
 
 
