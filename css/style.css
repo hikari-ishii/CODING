@@ -434,6 +434,7 @@ img {
     font-size: 1.5rem;
     align-items: center;
     text-decoration: #000 solid;
+    overflow: hidden;
 }
 
 .news_title {
@@ -1281,7 +1282,7 @@ img {
     }
 
     .section-wrapper {
-        padding: 100px 0 40px;
+        padding-top: 40px;
     }
 
 
@@ -1364,11 +1365,26 @@ img {
         display: none;
     }
 
+    /* --------------------- */
+    /* hero
+/* --------------------- */
 
+    .hero_title {
+        top: 7vw;
+        right: 2vw;
+    }
 
+    .hero_title>div:first-child {
+        font-size: 1vw;
+    }
 
-
-
-
-
+.hero_title>div:last-child {
+    font-size: 3vw;
 }
+
+
+    /* --------------------- */
+    /* news
+/* --------------------- */
+
+    .home_news {}
