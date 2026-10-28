@@ -1251,6 +1251,10 @@ img {
     /* base_sp
 /* --------------------- */
 
+    body {
+        padding-bottom: 10vw;
+    }
+
     .sp-br {
         display: block;
     }
@@ -1344,25 +1348,26 @@ img {
         margin-bottom: 8px;
     }
 
-    .burger-btn .bar_top {
+    /*
+    .burger-btn.is-active .bar_top {
         transform: rotate(45deg) translate(8px, 8px);
         transition: .3s;
     }
 
-    .burger-btn .bar_mid {
+    .burger-btn.is-active .bar_mid {
         opacity: 0;
         transition: .3s;
     }
 
-    .burger-btn .bar_bottom {
+    .burger-btn.is-active .bar_bottom {
         transform: rotate(-45deg) translate(8px, -8px);
         transition: .3s;
     }
-
+*/
 
 
     /* --------------------- */
-    /* deco
+    /* deco_sp
 /* --------------------- */
 
     .deco_frame ul {
@@ -1370,7 +1375,7 @@ img {
     }
 
     /* --------------------- */
-    /* hero
+    /* hero_sp
 /* --------------------- */
 
     .hero {
@@ -1479,7 +1484,7 @@ img {
 
 
     /* --------------------- */
-    /* news
+    /* news_sp
 /* --------------------- */
 
     .home_news {
@@ -1494,3 +1499,6 @@ img {
         font-size: 3vw;
         z-index: 20;
     }
+
+
+}
