@@ -1799,7 +1799,7 @@ img {
 /* --------------------- */
 
     .recruitment_wrapper {
-        height: 120vw;
+        height: 130vw;
     }
 
     .back-animation {
@@ -1844,6 +1844,7 @@ img {
     .recruitment {
         top: 50vw;
         display: block;
+        margin: 0 2vw;
     }
 
     .recruitment-box {
@@ -1884,9 +1885,10 @@ img {
         display: none;
     }
 
-
-
-
+.deco-people {
+    width: 93%;
+    bottom: -10vw;
+}
 
 
 
