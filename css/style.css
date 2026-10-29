@@ -1525,10 +1525,39 @@ img {
         display: none;
     }
 
+    /* --------------------- */
+    /* massage_sp
+/* --------------------- */
 
+    .home_message_title {
+        font-size: 5vw;
+        margin-left: 5vw;
+    }
 
+    .home_message_title .fz-4 {
+        font-size: 7vw;
+    }
 
+    .home_message_title .fz-2 {
+        font-size: 5vw;
+    }
 
+    .home_message_title .fz-5 {
+        font-size: 8vw;
+    }
+
+    .home_msg_txt {
+        padding: 0 5px;
+    }
+
+    .msg_subtitle {
+        left: 60vw;
+    }
+
+    .msg_subtxt {
+        line-height: 3vw;
+        font-size: 2vw;
+    }
 
 
 
