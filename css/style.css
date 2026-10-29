@@ -668,7 +668,7 @@ img {
 
 .bg-red {
     background: #d92b44;
-    height: 57vw;
+    height: 63vw;
 }
 
 .interview_top {
@@ -851,7 +851,7 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 0);
+    transform: translate(-50%, -50%);
 }
 
 .banner p {
@@ -1290,7 +1290,7 @@ img {
         margin-top: 1vw;
     }
 
-    .section-wrapper {
+    .fv-wrapper {
         padding-top: 40px;
         height: 265vw;
     }
@@ -1710,6 +1710,43 @@ margin: auto;}
 .interview-after {
     right: 25vw;
 }
+
+    /* --------------------- */
+    /* banner_sp
+/* --------------------- */
+
+.banner {
+    height: 98vw;
+    background-size: cover;
+    z-index: 10;
+    text-align: center;
+}
+
+.banner_box {
+        transform: translate(-50%, -50%);
+}
+
+.banner_box p {
+        font-size: 4vw;
+}
+
+.banner_box .fz-4 {
+    font-size: 7vw;
+}
+
+.banner_box .fz-4:first-child {
+    font-size: 10vw;
+}
+
+.banner_box .fz-5 {
+    font-size: 8vw;
+}
+
+
+
+
+
+
 
 
 
