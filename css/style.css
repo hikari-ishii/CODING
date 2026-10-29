@@ -1292,6 +1292,7 @@ img {
 
     .section-wrapper {
         padding-top: 40px;
+        height: 265vw;
     }
 
 
@@ -1532,6 +1533,7 @@ img {
     .home_message_title {
         font-size: 5vw;
         margin-left: 5vw;
+        margin-bottom: 2vw;
     }
 
     .home_message_title .fz-4 {
@@ -1559,11 +1561,22 @@ img {
         font-size: 2vw;
     }
 
+.msg_txtarea {
+    display: none;
+}
 
+.msg_text {
+    position: static;
+    writing-mode: horizontal-tb;
+    padding: 5vw;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    font-weight: 500;
+}
 
-
-
-
+.msg_text p {
+    margin-bottom: 3vw;
+}
 
 
 }
