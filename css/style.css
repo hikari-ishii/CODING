@@ -867,7 +867,7 @@ img {
 /* --------------------- */
 
 .guidelines-wrapper {
-    height: 89.8vw;
+    height: 200vw;
 }
 
 .guidelines-wrapper::before,
@@ -1742,18 +1742,59 @@ margin: auto;}
     font-size: 8vw;
 }
 
+    /* --------------------- */
+    /* guidelines_sp
+/* --------------------- */
+
+.application-guidelines {
+    height: 100vw;
+}
+
+.application-guidelines h3 {
+    font-size: 3vw;
+    padding: 8vw 0;    
+}
+
+.application-guidelines h3::before,
+.application-guidelines h3::after {
+    width: 24vw;
+}
+
+.application-guidelines-box {
+    display: block;
+    margin: 0 10vw;
+}
+
+.guidelines_new,
+.guidelines_halfway {
+    width: 100%;
+}
+
+.application-guidelines-box a {
+    height: 20vw;
+    justify-content: center;
+    margin: auto;
+}
+
+.guidelines_new {
+    margin-bottom: 3vw;
+}
+
+.application-guidelines-box h4 {
+    font-size: 5vw;
+    margin-top: 5vw;
+}
+
+.application-guidelines-box p {
+    font-size: 2vw;
+    font-weight: 700;
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.application-guidelines-box h4,
+.application-guidelines-box p {
+    line-height: vw;
+}
 
 
 
