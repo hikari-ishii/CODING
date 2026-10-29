@@ -1387,7 +1387,8 @@ img {
     .hero_title {
         color: #cbcbcc;
         left: 50%;
-        transform: translate(-50%, -50%);
+        top: 35vw;
+        transform: translate(-50%, 0);
         width: 100%;
     }
 
@@ -1593,9 +1594,44 @@ img {
         width: 90%;
     }
 
+    /* --------------------- */
+    /* interview_sp
+/* --------------------- */
 
+.img_deco {
+    display: none;
+}
 
+    .interview_top {
+        border: none;
+        display: block;
+        margin: 0 20px;
+        padding-top: 8vw;
+    }
 
+    .sp-flex {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 3vw;
+    }
+
+    .top1 {
+        font-size: 3.5vw;
+
+    }
+
+    .top2 {
+        font-size: 10vw;
+        letter-spacing: 2vw;
+        font-weight: 600;
+    }
+
+    .top3 {
+        margin-top: 3vw;
+        font-size: 2.3vw;
+        font-weight: 500;
+    }
 
 
 
