@@ -1561,22 +1561,51 @@ img {
         font-size: 2vw;
     }
 
-.msg_txtarea {
-    display: none;
-}
+    .msg_txtarea {
+        display: none;
+    }
 
-.msg_text {
-    position: static;
-    writing-mode: horizontal-tb;
-    padding: 5vw;
-    font-size: 3vw;
-    line-height: 4.5vw;
-    font-weight: 500;
-}
+    .msg_text {
+        position: static;
+        writing-mode: horizontal-tb;
+        padding: 5vw;
+        font-size: 3vw;
+        line-height: 4.5vw;
+        font-weight: 500;
+    }
 
-.msg_text p {
-    margin-bottom: 3vw;
-}
+    .msg_text p {
+        margin-bottom: 3vw;
+    }
+
+    .img_set {
+        width: 100%;
+        bottom: -100vw;
+    }
+
+    .msg_bg {
+        width: 100%;
+        bottom: -72vw;
+
+    }
+
+    .msg_people {
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
