@@ -866,10 +866,6 @@ img {
 /* guidelines
 /* --------------------- */
 
-.guidelines-wrapper {
-    height: 200vw;
-}
-
 .guidelines-wrapper::before,
 .guidelines-wrapper::after {
     content: "";
@@ -887,7 +883,7 @@ img {
 
 .guidelines-wrapper::after {
     width: 100%;
-    height: 15vw;
+    height: 10vw;
     min-height: 2rem;
     bottom: 0;
     left: 0;
@@ -1261,11 +1257,6 @@ img {
     }
 
     .interview {
-        overflow: hidden;
-    }
-
-    .back-animation {
-        width: 100%;
         overflow: hidden;
     }
 
@@ -1649,152 +1640,251 @@ img {
         overflow: hidden;
     }
 
-.interview_box {
-    display: none;
-margin: auto;}
+    .interview_box {
+        display: none;
+        margin: auto;
+    }
 
-.interview_box:first-child {
-    display: block;
-}
+    .interview_box:first-child {
+        display: block;
+    }
 
-.interview_box img {
-    width: 50vw;
-}
+    .interview_box img {
+        width: 50vw;
+    }
 
-.img-no {
-    top: 5vw;
-    left: -13vw;
-    font-size: 7vw;
-}
+    .img-no {
+        top: 5vw;
+        left: -13vw;
+        font-size: 7vw;
+    }
 
-.comment {
-    font-size: 3.8vw;
-    white-space: nowrap;
-}
+    .comment {
+        font-size: 3.8vw;
+        white-space: nowrap;
+    }
 
-.comment1 {
-    left: -13vw;
-    bottom: 27vw;
-}
+    .comment1 {
+        left: -13vw;
+        bottom: 27vw;
+    }
 
-.comment2 {
-    left: -13vw;
-    bottom: 18vw;
-}
+    .comment2 {
+        left: -13vw;
+        bottom: 18vw;
+    }
 
-.profile {
-    font-size: 2vw;
-    left: -13vw;
-    bottom: 7vw;
-}
+    .profile {
+        font-size: 2vw;
+        left: -13vw;
+        bottom: 7vw;
+    }
 
-.arrow {
-    width: 20%;
-    right: -9vw;
-    bottom: 10vw;
-}
+    .arrow {
+        width: 20%;
+        right: -9vw;
+        bottom: 10vw;
+    }
 
-.interview-btn-box {
-    top: 8.2vw;
-}
+    .interview-btn-box {
+        top: 8.2vw;
+    }
 
-.interview-btn-box a {
-    padding: 2.5vw 32vw;
-    font-size: 2.5vw;
-}
+    .interview-btn-box a {
+        padding: 2.5vw 32vw;
+        font-size: 2.5vw;
+    }
 
-.interview-before {
-    left: 25vw;
-}
+    .interview-before {
+        left: 25vw;
+    }
 
-.interview-after {
-    right: 25vw;
-}
+    .interview-after {
+        right: 25vw;
+    }
 
     /* --------------------- */
     /* banner_sp
 /* --------------------- */
 
-.banner {
-    height: 98vw;
-    background-size: cover;
-    z-index: 10;
-    text-align: center;
-}
+    .banner {
+        height: 98vw;
+        background-size: cover;
+        z-index: 10;
+        text-align: center;
+    }
 
-.banner_box {
+    .banner_box {
         transform: translate(-50%, -50%);
-}
+    }
 
-.banner_box p {
+    .banner_box p {
         font-size: 4vw;
-}
+    }
 
-.banner_box .fz-4 {
-    font-size: 7vw;
-}
+    .banner_box .fz-4 {
+        font-size: 7vw;
+    }
 
-.banner_box .fz-4:first-child {
-    font-size: 10vw;
-}
+    .banner_box .fz-4:first-child {
+        font-size: 10vw;
+    }
 
-.banner_box .fz-5 {
-    font-size: 8vw;
-}
+    .banner_box .fz-5 {
+        font-size: 8vw;
+    }
 
     /* --------------------- */
     /* guidelines_sp
 /* --------------------- */
 
-.application-guidelines {
-    height: 100vw;
-}
+    .guidelines-wrapper {
+        height: 250vw;
+    }
 
-.application-guidelines h3 {
-    font-size: 3vw;
-    padding: 8vw 0;    
-}
+    .application-guidelines {
+        height: 85vw;
+    }
 
-.application-guidelines h3::before,
-.application-guidelines h3::after {
-    width: 24vw;
-}
+    .application-guidelines h3 {
+        font-size: 3vw;
+        padding: 8vw 0;
+    }
 
-.application-guidelines-box {
-    display: block;
-    margin: 0 10vw;
-}
+    .application-guidelines h3::before,
+    .application-guidelines h3::after {
+        width: 24vw;
+    }
 
-.guidelines_new,
-.guidelines_halfway {
-    width: 100%;
-}
+    .application-guidelines-box {
+        display: block;
+        margin: 0 10vw;
+    }
 
-.application-guidelines-box a {
-    height: 20vw;
-    justify-content: center;
-    margin: auto;
-}
+    .guidelines_new,
+    .guidelines_halfway {
+        width: 100%;
+    }
 
-.guidelines_new {
-    margin-bottom: 3vw;
-}
+    .application-guidelines-box a {
+        height: 20vw;
+        justify-content: center;
+        margin: auto;
+        position: relative;
+    }
 
-.application-guidelines-box h4 {
-    font-size: 5vw;
-    margin-top: 5vw;
-}
+    .guidelines_new {
+        margin-bottom: 3vw;
+    }
 
-.application-guidelines-box p {
-    font-size: 2vw;
-    font-weight: 700;
-}
+    .application-guidelines-box h4 {
+        font-size: 5vw;
+    }
+
+    .application-guidelines-box a>div {
+        font-size: 2vw;
+        font-weight: 700;
+    }
 
 
-.application-guidelines-box h4,
-.application-guidelines-box p {
-    line-height: vw;
-}
+    .btn_box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* --------------------- */
+    /* recruitment_sp
+/* --------------------- */
+
+    .recruitment_wrapper {
+        height: 120vw;
+    }
+
+    .back-animation {
+        font-size: 30vw;
+        height: 45vw;
+    }
+
+    .back-Triangle {
+        width: 5vw;
+        height: 45vw;
+        margin: auto 9vw;
+    }
+
+    .recruitment_message {
+        height: 45vw;
+        line-height: 10vw;
+        font-size: 4vw;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .recruitment_message p {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -10%);
+        white-space: nowrap;
+    }
+
+    .recruitment_message .fz-3 {
+        font-size: 5vw;
+    }
+
+    .recruitment_message .fz-4 {
+        font-size: 7vw;
+    }
+
+    .recruitment_message .fz-5 {
+        font-size: 9vw;
+    }
+
+    .recruitment {
+        top: 50vw;
+        display: block;
+    }
+
+    .recruitment-box {
+        width: 100%;
+        height: 33vw;
+    }
+
+    .recruitment-box thead {
+        height: 11vw;
+    }
+
+    .recruitment-box th {
+        font-size: 3.5vw;
+    }
+
+    .recruitment-box1 {
+        margin-right: 0;
+        margin-bottom: 3vw;
+    }
+
+    .recruitment-box2 {
+        margin-left: 0;
+    }
+
+    .recruitment-box2 p:first-child {
+        font-size: 3.5vw;
+    }
+
+    .recruitment-box2 p:last-child {
+        font-size: 2.5vw;
+    }
+
+    .recruitment-box a img {
+        width: 63%;
+    }
+
+    .recruitment-box svg {
+        display: none;
+    }
+
+
 
 
 
