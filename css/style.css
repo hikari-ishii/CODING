@@ -1739,7 +1739,7 @@ img {
 /* --------------------- */
 
     .guidelines-wrapper {
-        height: 250vw;
+        height: 228vw;
     }
 
     .application-guidelines {
@@ -1889,6 +1889,47 @@ img {
     width: 93%;
     bottom: -10vw;
 }
+
+    /* --------------------- */
+    /* footer_sp
+/* --------------------- */
+
+.footer {
+    height: 45vw;
+    display: block;
+    width: auto;
+}
+
+.title-box {
+    margin-top: 6.5vw;
+    margin-bottom: 1.2rem;
+    font-size: 3.5vw;
+}
+
+.address address {
+    font-weight: 700;
+    font-size: 2.5vw;
+}
+
+.footer-nav {
+    margin-top: 6vw;
+    font-size: 2vw;
+    width: auto;
+}
+
+.footer-nav li {
+    border-bottom: 1px solid #000;
+}
+
+.top {
+    display: none;
+}
+
+
+
+
+
+
 
 
 
