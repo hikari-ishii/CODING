@@ -1598,9 +1598,13 @@ img {
     /* interview_sp
 /* --------------------- */
 
-.img_deco {
-    display: none;
-}
+    .bg-red {
+        height: 156vw;
+    }
+
+    .img_deco {
+        display: none;
+    }
 
     .interview_top {
         border: none;
@@ -1632,6 +1636,81 @@ img {
         font-size: 2.3vw;
         font-weight: 500;
     }
+
+
+    .interview {
+        overflow: visible;
+    }
+
+    .sp-interviw {
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+
+.interview_box {
+    display: none;
+margin: auto;}
+
+.interview_box:first-child {
+    display: block;
+}
+
+.interview_box img {
+    width: 50vw;
+}
+
+.img-no {
+    top: 5vw;
+    left: -13vw;
+    font-size: 7vw;
+}
+
+.comment {
+    font-size: 3.8vw;
+    white-space: nowrap;
+}
+
+.comment1 {
+    left: -13vw;
+    bottom: 27vw;
+}
+
+.comment2 {
+    left: -13vw;
+    bottom: 18vw;
+}
+
+.profile {
+    font-size: 2vw;
+    left: -13vw;
+    bottom: 7vw;
+}
+
+.arrow {
+    width: 20%;
+    right: -9vw;
+    bottom: 10vw;
+}
+
+.interview-btn-box {
+    top: 8.2vw;
+}
+
+.interview-btn-box a {
+    padding: 2.5vw 32vw;
+    font-size: 2.5vw;
+}
+
+.interview-before {
+    left: 25vw;
+}
+
+.interview-after {
+    right: 25vw;
+}
+
 
 
 
