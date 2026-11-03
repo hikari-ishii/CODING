@@ -65,6 +65,56 @@
 /* page_title
 /* --------------------- */
 
+.guidelines-wrapper::before {
+    display: none;
+}
+
 .page_ttl {
     background-color: #d92b44;
+    height: 8.5vw;
+    position: relative;
+}
+
+.breadcrumbs {
+    left: 2.6vw;
+    display: flex;
+    position: absolute;
+    bottom: 1vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: .7vw;
+}
+
+.breadcrumbs a {
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+}
+
+.breadcrumbs a:hover {
+    text-decoration: none;
+
+}
+
+.breadcrumbs a::after {
+    content: "";
+    display: block;
+    width: .4vw;
+    height: .4vw;
+    clip-path: polygon(0 100%, 0 0, 100% 50%);
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.page_ttl h1 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: 9vw;
+    position: absolute;
+    right: 5vw;
+    bottom: -2.6vw;
+    color: #FCF9F4;
 }
