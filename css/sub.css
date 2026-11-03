@@ -1,4 +1,12 @@
 /* --------------------- */
+/* base
+/* --------------------- */
+
+body:before {
+    z-index: 99;
+}
+
+/* --------------------- */
 /* header
 /* --------------------- */
 
@@ -22,7 +30,6 @@
     float: right;
 }
 
-
 /* --------------------- */
 /* nav
 /* --------------------- */
@@ -32,6 +39,7 @@
     bottom: 0;
     width: 42vw;
     height: 2.6vw;
+    z-index: 99;
 }
 
 .menu_deco {
@@ -112,9 +120,10 @@
 .page_ttl h1 {
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 700;
-    font-size: 9vw;
+    font-size: 8.2vw;
+    letter-spacing: .5vw;
     position: absolute;
     right: 5vw;
-    bottom: -2.6vw;
+    bottom: -2.7vw;
     color: #FCF9F4;
 }
