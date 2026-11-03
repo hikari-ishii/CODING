@@ -1,0 +1,33 @@
+
+/* --------------------- */
+/* header
+/* --------------------- */
+
+.sheader_logo {
+    background-color: #fff;
+    top: 0;
+    left: 2.6vw;
+    border-radius: 0px 0px 1.25rem 1.25rem;
+}
+
+.sheader_logo>a {
+    display: grid;
+    width: 17vw;
+    padding: 1em 1.5em;
+    gap: 1.125rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.sheader_logo .color_red {
+    float: right;
+}
+
+
+/* --------------------- */
+/* page_title
+/* --------------------- */
+
+.page_ttl {
+    background-color: #d92b44;
+}
