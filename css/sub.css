@@ -73,10 +73,6 @@ body:before {
 /* page_title
 /* --------------------- */
 
-.guidelines-wrapper::before {
-    display: none;
-}
-
 .page_ttl {
     background-color: #d92b44;
     height: 8.5vw;
@@ -126,4 +122,120 @@ body:before {
     right: 5vw;
     bottom: -2.7vw;
     color: #FCF9F4;
+}
+
+/* --------------------- */
+/* container
+/* --------------------- */
+
+.container {
+    display: flex;
+    margin: 0 2.6vw;
+    height: 50vw;
+}
+
+.page_slide_wrap {
+    width: 45%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slid_img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.slid_img img {
+    width: auto;
+}
+
+
+main {
+    display: grid;
+    grid-template-rows: 30vw 30vw 30vw;
+    grid-template-columns: 50% 50%;
+    place-items: center;
+    width: 55%;
+    padding: 1vw 2vw 0 2vw;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+main::-webkit-scrollber {
+    display: none;
+}
+
+.item_box {
+    width: 90%;
+    height: 27vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.item_box:hover {
+    background-color: rgb(255, 248, 248);
+    cursor: pointer;
+}
+
+.item_text {
+    position: relative;
+    width: 80%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.item_img {
+    position: relative;
+    height: 21vw;
+    overflow: hidden;
+    top: 1vw;
+    border-radius: 10px;
+}
+
+.item_box img {
+    width: 160%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.itemB img,
+.itemC img,
+.itemD img,
+.itemF img {
+    width: 180%;
+}
+
+.red {
+    position: absolute;
+    background-color: #d92b44;
+    color: #fff;
+    width: 50%;
+    bottom: -1vw;
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 700;
+    font-size: .7vw;
+    line-height: 2.5;
+    border-radius: 10px;
+}
+
+.profile {
+    position: absolute;
+    left: 0;
+    bottom: -4.5vw;
+    color: #000;
+}
+
+.name {
+    position: absolute;
+    right: 0;
+    bottom: -5vw;
+    font-size: 2.3vw;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 600;
+    letter-spacing: .5vw;
+    color: #000;
 }
